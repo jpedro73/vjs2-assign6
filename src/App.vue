@@ -3,6 +3,7 @@
     <comp-header />
     <hr />
     <comp-server-status />
+    <comp-server-detail />
     <hr />
     <comp-footer />
   </div>
@@ -10,6 +11,7 @@
 
 <script>
 import serverStatus from "./Servers";
+
 export default {
   components: {
     "comp-server-status": serverStatus

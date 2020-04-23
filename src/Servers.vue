@@ -7,14 +7,17 @@
         </li>
       </ul>
     </div>
-    <div class="col-xs-12 col-sm-6">
-      <p>Server Details are currently not updated</p>
-    </div>
+    <comp-server-detail />
   </div>
 </template>
 
 <script>
-export default {};
+import ServerDetails from "./ServerDetails";
+export default {
+  components: {
+    "comp-server-detail": ServerDetails
+  }
+};
 </script>
 
 <style scoped></style>
