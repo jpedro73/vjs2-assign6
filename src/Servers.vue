@@ -17,7 +17,7 @@ export default {
   components: {
     "comp-server-detail": ServerDetails
   }
-};
+}
 </script>
 
 <style scoped></style>
